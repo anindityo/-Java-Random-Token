@@ -22,10 +22,10 @@ public class coba {
 
     public String token(int panjang) {
 
-        char[] isi = "0123456789ABCDEFGHJIKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz".toCharArray(); //Data array dari data tipe karakter
-        char[] charbaru = new char[panjang]; //instanceof dari char menjadi charbaru
-        Random acak = new Random(); //instanceof dari random menjadi acak
-        for (int i = 0; i < panjang; i++) { //Looping untuk memanggil data array pada inisialisasi "isi"
+        char[] isi = "0123456789ABCDEFGHJIKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz".toCharArray();
+        char[] charbaru = new char[panjang]; //
+        Random acak = new Random(); 
+        for (int i = 0; i < panjang; i++) { 
             charbaru[i] = isi[acak.nextInt(isi.length)];
         }
         return new String(charbaru);
