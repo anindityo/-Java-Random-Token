@@ -14,8 +14,9 @@ import java.util.Random;
 public class coba {
 
     /**
-     * Menampilkan data Array dengan hasil Token (Acak). dengan non void
-     *
+     * Fungsi dengan menggunakan data tipe char diconvert menjadi String
+     * Dengan fungsi Random untuk menghasilkan data acak dari data array.
+     * Fungsi menampilkan data Array dengan hasil Token (Acak). dengan non void
      * @param panjang
      * @return String baru berisi (charbaru)
      */
