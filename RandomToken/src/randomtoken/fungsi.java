@@ -17,7 +17,7 @@ public class coba {
      * Fungsi dengan menggunakan data tipe char diconvert menjadi String
      * Dengan fungsi Random untuk menghasilkan data acak dari data array.
      * Fungsi menampilkan data Array dengan hasil Token (Acak). dengan non void
-     * @param panjang
+     * @param panjang integer
      * @return String baru berisi (charbaru)
      */
 
